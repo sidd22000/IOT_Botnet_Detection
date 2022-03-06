@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1cd72BJ7B5AVh990hpnIF8dkV3SjX3CNw
 """
 
-!pip install -q streamlit
-!pip install scapy
+python -m pip install -q streamlit
+python -m pip install scapy
 
 # %%writefile app.py
 import streamlit as st
